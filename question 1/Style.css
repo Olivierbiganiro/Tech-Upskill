@@ -1,0 +1,117 @@
+
+.main-div{
+  position: relative;
+  margin: 60px 70px 50px 70px;
+  display: flex;
+}
+.div-position{ 
+  flex: 50%;
+  height: 600px;
+}
+.left-div {
+  background-color: rgb(25, 39, 235);
+}
+.right-div {
+  background-color: rgb(231, 223, 223);
+}
+.top-div{
+  border-radius: 5%;
+  top: 15%;
+  left: 10%;
+  width: 150vh;
+  height: 80vh;
+  background-color: rgb(255, 255, 255,30%);
+  position: absolute;
+  z-index: 1;
+}
+.div-in-right-div{
+    z-index: 1;
+    padding-top: 7px;
+    padding-left: 40px;
+    border-radius: 4.5%;
+    margin-top: 6vh;
+    margin-left: 11vh;
+    margin-right:16vh;
+    height: 78vh;
+    opacity: 100%;
+    background-color: rgb(237, 237, 241);
+}
+.div-in-right-div h1{
+  color: black;
+}
+.div-in-right-div button{
+  background-color: blue;
+  border-color: aliceblue;
+  height: 45px;
+  width: 90%;
+  border-radius: 10px;
+  margin-left: 0px;
+}
+
+.form-div{
+  border-radius: 4%;
+  height:20px;
+  padding: 0;
+  width: 100% ;
+  margin: 0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+}
+
+.form-div input{
+  border-color: aliceblue;
+  border-radius: 4%;
+  height:25px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+}
+
+.img-div{
+  display: flex;
+  gap: 30px;
+}
+.img-div img{
+  margin-left: 200%;
+  height: 3vh;
+  width: 3vh;
+}
+
+
+
+
+.main-div3 {
+    background-color: blue;
+    position: absolute;
+    margin-right: 6vh;
+    margin-top: 5vh;
+    margin-left: 6vh;
+    margin-bottom: 6vh;
+    overflow-x: hidden;
+    padding: 20px;
+  }
+  
+  /* Control the left side */
+  
+  
+  /* Control the right side */
+  
+  
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }

@@ -1,7 +1,7 @@
 class Product {
   String name;
   int price;
-  //class constracotor
+  //class constractor
   Product(this.name, this.price);
   //class function
   String toString() {
